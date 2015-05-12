@@ -11,7 +11,7 @@ function frameYourPhrase(phrase) {
 
      Pay attention to the spacing.  The box should be a square.  In other words,
      the longest word in the phrase will dictate the size of the box.
-   */  
+   */ 
    return "**********\n* Hello  *\n* World! *\n**********";
 }
 
@@ -24,6 +24,9 @@ function isPrime(num) {
       If this is too challenging, hard code the first 15 prime numbers and
       return true if the number is in the list.
     */
+    if num === 1 || num ===3 || num===5 || num===7 || num===11 || num===13{
+      return true
+    }
     return false;
 }
 
